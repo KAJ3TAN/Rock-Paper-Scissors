@@ -1,0 +1,131 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-color: #333;
+	font-family: sans-serif;
+}
+
+.before {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    padding-top: 90px;
+    text-align: center;
+    background-color: black;
+   
+
+}
+
+.game-name {
+    margin-bottom: 55px;
+	font-size: 110px;
+	text-transform: uppercase;
+	color: #fff;
+    font-family: 'Monoton', cursive;
+}
+
+.pink {
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff6ec7, 0 0 20px #ff6ec7, 0 0 25px #ff6ec7, 0 0 30px #ff6ec7, 0 0 35px #ff6ec7;
+    margin-right: 70px;
+}
+
+.yellow {
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ffff33, 0 0 20px #ffff33, 0 0 25px #ffff33, 0 0 30px #ffff33, 0 0 35px #ffff33;
+    margin-right: 70px;
+}
+
+.blue {
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+h2 {
+	margin-bottom: 30px;
+	font-size: 35px;
+	color: #fff;
+}
+
+.btns {
+    button {
+        font-size: 90px;
+        margin: 20px;
+        margin-bottom: 40px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        transition: transform 0.5s;
+    }
+    
+    button:hover {
+        transform: scale(1.5);
+    }
+}
+
+.scoreboard {
+	border: 5px solid black;
+	padding: 40px 120px;
+	h1 {
+		text-transform: uppercase;
+		font-size: 50px;
+	}
+
+	h3 {
+		margin-top: 40px;
+		font-size: 30px;
+	}
+}
+
+.endGame {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+
+    h1 {
+        margin-top: 100px;
+        font-size: 150px;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+    }
+
+  
+}
+
+.btn {
+        margin-top: 300px;
+        padding: 20px 40px;
+        font-size: 60px;
+        background-color: transparent;
+        border: 5px solid white;
+        text-transform: uppercase;
+        color: white;
+        border-radius: 40px;
+        cursor: pointer;
+        transition: 1s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
